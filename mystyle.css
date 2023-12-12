@@ -1,0 +1,105 @@
+*{  
+    margin: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-image: url(image/4010777143_baee323213.jpg);
+}
+section{
+    width: 700px;
+    background-color: darkgreen;
+    padding:  30px 30px;
+    border-radius: 15px;
+    border: 4px solid gold;
+    box-shadow: 5px 5px 8px gray;
+}
+input:hover{
+    background-color: lightblue;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: black;
+    text-shadow: 2px 2px grey;
+}
+.main-user{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.esteban{
+    width: 250px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+.esteban input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid gray;
+
+}
+.gender_title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px grey;
+}
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    color:white;
+}
+.Register input{ 
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+}
+@media (max-width: 677px){
+    body{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    section{
+        max-width: 100%;
+        height: 100%;
+    }
+    .esteban{
+        margin-bottom: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .gender{
+        width: 100%;
+    }   
+    label{
+        display: flex;
+        flex-direction: row;
+        max-height: 300px;
+    }
+    .Register input{ 
+        display: block;
+        width: 100px;
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        color: black;
+    }
+}
